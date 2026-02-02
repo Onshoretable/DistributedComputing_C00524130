@@ -1,0 +1,140 @@
+Name: Khiem Nguyen
+$ ls
+README.md
+Readme.txt
+logs.txt
+$ pwd
+/home/ubuntu
+$ whoami
+ubuntu
+$ date
+Tue Jan 27 20:05:27 UTC 2026
+$ cal
+    January 2026      
+Su Mo Tu We Th Fr Sa  
+             1  2  3  
+ 4  5  6  7  8  9 10  
+11 12 13 14 15 16 17  
+18 19 20 21 22 23 24  
+25 26 27 28 29 30 31  
+                      
+$ uptime
+ 20:07:56 up 4 days,  4:03,  1 user,  load average: 0.00, 0.00, 0.00
+$ free
+               total        used        free      shared  buff/cache   available
+Mem:          936152      367048      284080        2776      457616      569104
+Swap:              0           0           0
+$ hostname
+ip-172-31-74-29
+$ chmd 400 name.txt
+-r-------- 1 ubuntu ubuntu 0 Jan 27 20:39 name.txt
+$ sudo apt upgrade
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  libnuma1 numactl
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  libnuma1 numactl
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+$ w
+ 21:10:18 up 4 days,  5:05,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+ubuntu            130.70.16.248    17:51    2:37m  0.00s   ?    sshd: ubuntu [priv]
+$ ps
+    PID TTY          TIME CMD
+  22580 pts/0    00:00:00 bash
+  23453 pts/0    00:00:00 ps
+$ cd .local
+/home/ubuntu/.local/
+$ du
+4	./.config/procps
+8	./.config
+24	./.ssh
+4	./.cache
+8	./.git/info
+8	./.git/logs/refs/heads
+8	./.git/logs/refs/remotes/origin
+12	./.git/logs/refs/remotes
+24	./.git/logs/refs
+32	./.git/logs
+4	./.git/refs/tags
+8	./.git/refs/heads
+8	./.git/refs/remotes/origin
+12	./.git/refs/remotes
+28	./.git/refs
+68	./.git/hooks
+4	./.git/objects/info
+8	./.git/objects/ac
+4	./.git/objects/pack
+8	./.git/objects/69
+8	./.git/objects/e6
+36	./.git/objects
+4	./.git/branches
+200	./.git
+4	./.local/share/nano
+8	./.local/share
+12	./.local
+284	.
+$ df
+Filesystem      1K-blocks    Used Available Use% Mounted on
+/dev/root         7034376 2289788   4728204  33% /
+tmpfs              468076       0    468076   0% /dev/shm
+tmpfs              187232     884    186348   1% /run
+tmpfs                5120       0      5120   0% /run/lock
+efivarfs              128       4       120   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p16    901520   91032    747360  11% /boot
+/dev/nvme0n1p15    106832    6250    100582   6% /boot/efi
+tmpfs               93612      12     93600   1% /run/user/1000
+$ head what.txt
+1
+2
+3
+4
+5
+7
+8
+9
+this is a number 
+$ tail what.txt
+
+
+
+
+
+
+a;skfdh;askf
+as;kdjfhlaksjhf
+asldkjfhlsakf
+this is the bottom
+$ sed -n '/$./p' logs.txt
+$ ls
+$ pwd
+$ whoami
+$ date
+$ cal
+$ uptime
+$ free
+$ hostname
+$ chmd 400 name.txt
+$ sudo apt upgrade
+$ w
+$ ps
+$ cd .local
+$ du
+$ df
+$ head what.txt
+$ tail what.txt
+$ sed -n '/$./p' logs.txt
+$ uname -a
+Linux ip-172-31-74-29 6.14.0-1018-aws #18~24.04.1-Ubuntu SMP Mon Nov 24 19:46:27 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+$ wc logs.txt
+ 136  443 3106 logs.txt
+
+
